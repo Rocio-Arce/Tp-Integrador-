@@ -3,7 +3,7 @@
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    width: 2000px;
+    width: auto;
     height: 100px;
     padding: 15px;
     margin: auto;
@@ -13,9 +13,9 @@ img{
     width: 120px;
     height: auto;
 }
-.card{
-align-content: center;
-display: inline-block;
+
+.card-img-top{
+    width: auto;
 }
 .btn{
     font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +38,9 @@ display: inline-block;
     background-color: rgb(192, 18, 18);
     color: white;
 }
-#conferencia{
+.btn-tickets{
     color: white;
+    background-color: green;
+    border-radius: 12px;
+    float: right;
 }
