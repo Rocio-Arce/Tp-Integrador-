@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="estilos.css" rel="stylesheet">
     <title>TP Integrador</title>
 </head>
 <body>
     <header>
-        <div class="box"><img src="codoacodo.png"> Conf Bs.As</div>
+       <nav> <div class="box"><img src="codoacodo.png"> Conf Bs.As <button type="button" class="btn btn-tickets"><b>Comprar tickets</b></button>
+        </div>
+       </nav>
+        
     </header>
 <br>
 <main class="position-relative">
@@ -17,15 +22,15 @@
         <div class="carousel-inner">
         
         <div class="carousel-item active">
-        <img src="ba1.jpg" class="d-block w-100 img-fluid" alt="Foto1">
+        <img src="ba1.jpg" class="d-block w-100 img-fluid" alt="foto1">
         </div>
         
         <div class="carousel-item">
-        <img src="ba2.jpg" class="d-block w-100 img-fluid" alt="Foto2">
+        <img src="ba2.jpg" class="d-block w-100 img-fluid" alt="foto2">
         </div>
         
         <div class="carousel-item">
-        <img src="ba3.jpg" class="d-block w-100 img-fluid" alt="Foto3">
+        <img src="ba3.jpg" class="d-block w-100 img-fluid" alt="foto3">
         </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -40,32 +45,41 @@
         </div>
 </main>
 
-<div class="card" style="width: 20rem;">
-    <img src="steve.jpg" class="card-img-top" alt="steve">
-    <div class="card-body">
-    <h5 class="card-title">Steve Jobs</h5>
-    <button type="button" class="btn btn-info"><b>JavaScript</b></button> <button type="button" class="btn btn-info1"><b>React</b></button>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione possimus excepturi recusandae, sint tenetur aspernatur repellendus esse assumenda optio nisi placeat deserunt dolores voluptatibus. Lorem</p>
-    </div> 
-    </div>
-<div class="card" style="width: 20rem;">
 
+<div class="row">
+    <div class="col-sm-3">
+        <div class="card">
+             <img src="steve.jpg" class="card-img-top" alt="steve">
+             <div class="card-body">
+                <h5 class="card-title">Steve Jobs</h5>
+                <button type="button" class="btn btn-info"><b>JavaScript</b></button> <button type="button" class="btn btn-info1"><b>React</b></button>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aspernatur illo perspiciatis blanditiis explicabo, provident vel, animi sit assumenda ut a excepturi dolores aperiam quia atque molestias autem numquam velit.</p>
+            </div> 
+         </div>
+     </div>
+
+<div class="col-sm-3">
+    <div class="card">
         <img src="bill.jpg" class="card-img-top" alt="bill">
-        <div class="card-body">
-        <h5 class="card-title">Bill Gates</h5>
-        <button type="button" class="btn btn-info"><b>JavaScript</b></button> <button type="button" class="btn btn-info1"><b>React</b></button>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquid quod saepe culpa voluptatibus ullam, mollitia iure sapiente, eius, ipsum dolore labore dicta vero omnis? Lorem ipsum dolor sit amet.</p>
-        </div>
-        </div>
-        <div class="card" style="width: 20rem;">
+                <div class="card-body">
+                     <h5 class="card-title">Bill Gates</h5>
+                      <button type="button" class="btn btn-info"><b>JavaScript</b></button> <button type="button" class="btn btn-info1"><b>React</b></button>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, illum? Ratione, repellendus aut beatae quis officia atque error, aperiam vel velit maxime culpa enim nemo ullam voluptatem et distinctio voluptate.</p>
+                 </div>
+     </div>
+  </div>
 
+  <div class="col-sm-3">
+        <div class="card">
             <img src="ada.jpeg" class="card-img-top" alt="ada">
-            <div class="card-body">
-            <h5 class="card-title">Ada Lovelace</h5>
-            <button type="button" class="btn btn-info2"><b>Negocios</b></button> <button type="button" class="btn btn-info3"><b>Startups</b></button>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad porro molestiae hic dicta animi labore illum adipisci esse sit quidem unde, possimus repellat at accusantium?</p>
-            </div>
-            </div>
+                 <div class="card-body"> 
+                    <h5 class="card-title">Ada Lovelace</h5>
+                    <button type="button" class="btn btn-info2"><b>Negocios</b></button> <button type="button" class="btn btn-info3"><b>Startups</b></button>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sequi illum sit inventore iure amet eveniet ea, quidem maxime suscipit consequuntur harum aut cupiditate officia perferendis voluptatem adipisci quibusdam at.</p>
+                </div>
+        </div>
+    </div>
+</div>
     
 </body>
 </html>
