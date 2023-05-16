@@ -32,7 +32,7 @@ h1{
 }
 .card-text{
     text-align: justify;
-   }
+}
 .card-img-top{
     width: auto;
 }
@@ -62,4 +62,30 @@ h1{
     background-color: green;
     border-radius: 12px;
     float: right;
+}
+.btn-btn-orador{
+    color: white;
+}
+.img-fluid{
+    width: auto;
+}
+.octubre{
+    background-color: rgb(68, 67, 67);
+    color: white;
+    box-sizing: content-box;
+    width: 505px ;
+    height: auto;
+}
+.octubre-h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#row-text{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+.btn-conoce{
+    border-color: white;
+    color: white;
 }
